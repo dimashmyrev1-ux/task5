@@ -1,10 +1,18 @@
-public class Parrot extends Animal {
+public class Parrot extends Animal
+
+{
+    String type = "Какаду";
     public Parrot() {
-        animal_name = "Попугай";
+        animalName = "Попугай";
     }
 
     @Override
     void makeSound() {
         System.out.println("Я умею говорить!");
+    }
+
+    @Override
+    void printUnique() {
+        System.out.println("Вид: " + type);
     }
 }

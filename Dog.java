@@ -1,10 +1,18 @@
-public class Dog extends Animal {
+public class Dog extends Animal
+
+{
+    String breed = "Овчарка";
     public Dog() {
-        animal_name = "Собака";
+        animalName = "Собака";
     }
 
     @Override
     void makeSound() {
         System.out.println("Гав!");
+    }
+
+    @Override
+    void printUnique() {
+        System.out.println("Порода: " + breed);
     }
 }
