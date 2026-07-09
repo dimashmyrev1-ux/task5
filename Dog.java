@@ -1,6 +1,5 @@
-public class Dog extends Animal
-
-{
+public class Dog extends Animal {
+    
     String breed = "Овчарка";
     public Dog() {
         animalName = "Собака";
