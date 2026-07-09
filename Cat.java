@@ -1,6 +1,5 @@
-public class Cat extends Animal
-
-{
+public class Cat extends Animal {
+    
     String color = "Оранжевый";
     public Cat() {
         animalName = "Кот";
