@@ -1,4 +1,4 @@
-abstract class Animal{
+abstract class Animal {
     
     boolean isAnimal = true;
     String animalName = "Животное";
